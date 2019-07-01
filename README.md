@@ -2,7 +2,7 @@
 
 <image src="/public/downloads/demo.png" />
 
-Hello & welcome to CoderLoader's Ruby on Rails API backend.  This contains the resources supplied to [this repo](https://github.com/256hz/coderloader-react), the React.js frontend of this project.  Set up this Rails repo first.
+Hello & welcome to CoderLoader's Ruby on Rails API backend.  This contains the resources supplied to [this repo](https://github.com/wardou2/coderloader-react), the React.js frontend of this project.  Set up this Rails repo first.
 
 ### Overview
 
@@ -31,7 +31,7 @@ Authentication is performed with JWT and Bcrypt.  All `update` actions require t
 - Set up the remote database.  If you're set up on Heroku, run `heroku login`.  Once logged in run `heroku run rails db:migrate && heroku run rails db:seed`.  (There's no need to run `db:setup`, as Heroku takes care of this step for you.)
 - Test the backend by going to `your.url/api/v1/skills` or `your.url/api/v1/users`.
 - Note the root URL of the hosted project (i.e. `http://your.url/api/v1/`).  Your frontend will need to be pointed here. 
-- You're halfway there!  Now you can install the [React front-end](https://github.com/256hz/coderloader-react).
+- You're halfway there!  Now you can install the [React front-end](https://github.com/wardou2/coderloader-react).
 
 ### Thanks!
 Any changes you want to recommend, simply fork and make a PR, or find Abe on twitter ([@256hertz](http://twitter.com/256hertz)). Happy coding!
